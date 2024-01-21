@@ -408,5 +408,79 @@ Berisi tentang kumpulan tugas coding semasa TPB
     	cout<<"Hasil dari pembagian: " <<a<< " / " <<b<< " = " <<a / b <<endl;
     	cout<<"Hasil dari perkalian: " <<a<< " * " <<b<< " = " <<a * b <<endl;
     	cout<<"Hasil dari modulus: " <<a<< " % " <<b<< " = " <<(a/b)*b;
+
+        return 0;
+    }
+# Code Program Hitung Nilai Akhir Mata Kuliah
+    #include <iostream>
+    using namespace std;
+    
+    int main(){
+    	string Nama,Matkul;
+    	float Tugas,UTS,UAS,Nilai;
     	
+    	cout<<"Program Hitung Nilai Akhir Mata Kuliah" <<endl;
+    	cout<<"Masukkan nama mahasiswa: ";
+    	cin>>Nama;
+    	cout<<"Masukkan nama matkul " <<Nama<< ": ";
+    	cin>>Matkul;
+    	cout<<"Masukkan nilai tugas " <<Matkul<< ": ";
+    	cin>>Tugas;
+    	cout<<"Masukkan nilai UTS " <<Matkul<< ": ";
+    	cin>>UTS;
+    	cout<<"Masukkan nilai UAS " <<Matkul<< ": ";
+    	cin>>UAS;
+    	Nilai=(0.4*Tugas) + (0.3*UTS) + (0.3*UAS);
+    	cout<< "Nilai akhir " <<Matkul<< " " <<Nama<< ": " <<Nilai;
+     
+    	return 0;
+    }
+# Code Program Menentukan Bulan Dengan Angka
+    #include <iostream>
+    using namespace std;
+    
+    int main() {
+      int n;
+      string bulan;
+    
+      cin >> n;
+      if(n==1){
+          bulan = "januari";
+      }else if(n==2){
+          bulan = "februari";
+      }
+      else if(n==3){
+          bulan = "maret";
+      }
+      else if(n==4){
+          bulan = "april";
+      }
+      else if(n==5){
+          bulan = "mei";
+      }
+      else if(n==6){
+          bulan = "juni";
+      }
+      else if(n==7){
+          bulan = "juli";
+      }
+      else if(n==8){
+          bulan = "agustus";
+      }
+      else if(n==9){
+          bulan = "september";
+      }
+      else if(n==10){
+          bulan = "oktober";
+      }
+      else if(n==11){
+          bulan = "november";
+      }else if(n==12){
+          bulan = "desember";
+      }else{
+          bulan = "Salah, Masukkan antara 1-12";
+      }
+      cout << bulan << endl;
+    
+      return 0;
     }
