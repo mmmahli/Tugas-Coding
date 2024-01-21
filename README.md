@@ -1,17 +1,17 @@
 # Tugas-Coding
 Berisi tentang kumpulan tugas coding semasa TPB
-# File Kalkulator sederhana
-//Muhammad Ilham_122130031_Teknik Elektro
-//Tugas 3 Self Solving
+# Code Kalkulator sederhana
+    //Muhammad Ilham_122130031_Teknik Elektro
+    //Tugas 3 Self Solving
 
-#include <iostream>
-using namespace std;
+    #include <iostream>
+    using namespace std;
 
-int main() {
-    char pilihan;
-    float angka1, angka2;
-
-    do {
+    int main() {
+      char pilihan;
+      float angka1, angka2;
+    
+     do {
         cout << "===========================" << endl;
         cout << "PROGRAM KALKULATOR SEDRHANA" << endl;
         cout << "===========================" << endl;
@@ -56,4 +56,4 @@ int main() {
     } while (pilihan == 'y' || pilihan == 'Y');
 
     return 0;
-}
+    }
